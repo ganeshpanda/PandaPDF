@@ -11,12 +11,12 @@ sha256 = "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
 source = "LICENSE-MIT"
 licences = ["MIT"]
 destination = "LICENSE-MIT"
-sha256 = "cd7032ea33b71427f188e34ffb4aee9d6868a57fd196037c5c8b2be03a2a0352"
+sha256 = "c97b910550083398a470e0b3841f8c8c5c804efdc54772f9d5dd90e334a406a1"
 
 [[document]]
 source = "NOTICE"
 destination = "NOTICE"
-sha256 = "9f854f730719af962cd840529324d089e05e68a30bd245c50e33f96e009b4314"
+sha256 = "5dbed95602254150c95f81bb813e9e5cf27a930888bc5a211e27761bebfbf0d2"
 
 [[document]]
 source = "assets/app-icon/LICENSE-document.txt"
@@ -26,7 +26,7 @@ sha256 = "64a3137e3d5cc41e5b78d2ad8dd9ddddd6588283f9f7b3128aa6a8a50852fb9a"
 [[document]]
 source = "assets/app-icon/LICENSE.txt"
 destination = "assets/app-icon/LICENSE.txt"
-sha256 = "b768acafe6cbad8247eedf86b5b5381feefcd4ee0f8c7808b86811bc687cf37b"
+sha256 = "43e8380240d0c33a9c088789d3ea7b39a6339666016a7aaac41e7ee603f3a2c7"
 
 [[document]]
 source = "assets/fonts/OFL-DancingScript.txt"
@@ -47,11 +47,6 @@ sha256 = "a76abf002c49097d146e86740a3105a5d00450b1592e820a1109a8c5680cd697"
 source = "assets/icons/LICENSE-lucide.txt"
 destination = "assets/icons/LICENSE-lucide.txt"
 sha256 = "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57"
-
-[[document]]
-source = "docs/brand/LICENSE-brand.txt"
-destination = "docs/brand/LICENSE-brand.txt"
-sha256 = "0f33f48e7a96cd359d4e4e5b11424b13cebeb59cc70c77928186695e4173585c"
 
 [[document]]
 source = "licenses/CMap-LICENSE.txt"
