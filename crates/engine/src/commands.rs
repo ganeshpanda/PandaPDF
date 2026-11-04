@@ -402,6 +402,7 @@ pub const COMMANDS: &[CommandSpec] = &[
     c("help.github", "PandaPDF on GitHub", HELP, None, Nothing, "code-xml"),
     c("help.app_page", "Report an issue", HELP, None, Nothing, "messages-square"),
     c("help.website", "Based on PdfCraft", HELP, None, Nothing, "external-link"),
+    c("help.thanks", "Say thanks", HELP, None, Nothing, "thumbs-up"),
     c("help.check_updates", "Check for updates…", HELP, None, Nothing, "cloud"),
     c("help.about", "About PandaPDF", HELP, None, Nothing, "info"),
 ];

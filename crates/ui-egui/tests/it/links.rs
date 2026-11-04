@@ -28,9 +28,11 @@ fn github_button_in_the_top_bar_opens_the_repository() {
 
 #[test]
 fn home_screen_links() {
-    for (label, url) in
-        [("Report an issue", "https://github.com/ganeshpanda/PandaPDF/issues"), ("Based on PdfCraft", "https://github.com/storytold/pdfcraft")]
-    {
+    for (label, url) in [
+        ("Report an issue", "https://github.com/ganeshpanda/PandaPDF/issues"),
+        ("Based on PdfCraft", "https://github.com/storytold/pdfcraft"),
+        ("Say thanks", "https://www.ganeshpanda.com/pandapdf#thanks"),
+    ] {
         let mut h = harness(|_| {});
         h.get_by_label("Report issues, share feedback and follow development.");
         h.get_by_label(label).click();

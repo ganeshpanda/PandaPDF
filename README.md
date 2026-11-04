@@ -67,6 +67,9 @@ Development notes (logs, environment variables, tests) are in [docs/development.
 
 Report bugs and ideas in [GitHub issues](https://github.com/ganeshpanda/PandaPDF/issues).
 
+PandaPDF is free. If it helps you, you can [say thanks](https://www.ganeshpanda.com/pandapdf#thanks)
+with a small UPI payment (Help > Say thanks in the app).
+
 ## License and credits
 
 PandaPDF is dual-licensed under [MIT](LICENSE-MIT) or [Apache-2.0](LICENSE-APACHE), at your option,

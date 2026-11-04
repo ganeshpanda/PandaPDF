@@ -13,6 +13,8 @@ pub const APP_PAGE: &str = GITHUB;
 pub const ISSUES: &str = "https://github.com/ganeshpanda/PandaPDF/issues";
 /// PdfCraft, the open-source project PandaPDF is based on.
 pub const UPSTREAM: &str = "https://github.com/storytold/pdfcraft";
+/// The PandaPDF page's "Say thanks" popup (a UPI QR code).
+pub const THANKS: &str = "https://www.ganeshpanda.com/pandapdf#thanks";
 
 /// A link and the registry command that opens it.
 #[derive(Clone, Copy, Debug)]
@@ -29,6 +31,7 @@ pub const LINKS: &[Link] = &[
     Link { command: "help.github", label: "PandaPDF on GitHub", url: GITHUB, icon: "code-xml" },
     Link { command: "help.app_page", label: "Report an issue", url: ISSUES, icon: "messages-square" },
     Link { command: "help.website", label: "Based on PdfCraft", url: UPSTREAM, icon: "external-link" },
+    Link { command: "help.thanks", label: "Say thanks", url: THANKS, icon: "thumbs-up" },
 ];
 
 pub fn for_command(id: &str) -> Option<&'static Link> {

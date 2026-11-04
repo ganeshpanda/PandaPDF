@@ -115,6 +115,7 @@ fn urls_point_at_pandapdf_and_its_upstream() {
     assert_eq!(super::GITHUB, format!("https://github.com/ganeshpanda/{}", super::APP));
     assert_eq!(super::ISSUES, format!("{}/issues", super::GITHUB));
     assert_eq!(super::UPSTREAM, "https://github.com/storytold/pdfcraft");
+    assert_eq!(super::THANKS, "https://www.ganeshpanda.com/pandapdf#thanks");
     for l in super::LINKS {
         assert!(l.url.starts_with("https://"), "{}", l.url);
         assert!(crate::commands::command(l.command).is_some(), "{} is a registered command", l.command);
